@@ -50,7 +50,6 @@ li {
   margin-top: 42px;
 }
 
-
 .title-cont {
   margin-top: 104px;
 }
@@ -73,7 +72,6 @@ li {
   margin-bottom: 92px;
 }
 
-
 .img1-1 {
   width: 255px;
 }
@@ -92,7 +90,7 @@ li {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 900;
-  text-transform: uppercase;
+  text-`form: uppercase;
   color: #ffffff;
   /* background-color: #323232; */
   /* text-align: left;*/
@@ -171,6 +169,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img1-2:hover {
   background: linear-gradient(
@@ -180,6 +179,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img1-3:hover {
   background: linear-gradient(
@@ -189,6 +189,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img1-4:hover {
   background: linear-gradient(
@@ -198,6 +199,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img2-1:hover {
   background: linear-gradient(
@@ -207,6 +209,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img2-2:hover {
   background: linear-gradient(
@@ -225,6 +228,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img2-4:hover {
   background: linear-gradient(
@@ -234,6 +238,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 
 .LN {
