@@ -221,6 +221,7 @@ p {
     #7fd9c7 54px,
     #7fd9c7
   );
+  cursor: pointer;
 }
 .img2-3:hover {
   background: linear-gradient(
@@ -258,7 +259,7 @@ p {
   width: 164px;
   height: 7px;
   font-size: 48px;
-  background-color: aqua;
+  background-color: rgb(78, 198, 171);
   margin: 0 auto;
   margin-top: 32px;
 }
@@ -268,6 +269,7 @@ p {
   font-size: 0;
   margin: 0 auto;
 }
+
 
 .images-ln li {
   display: inline-block;
@@ -288,7 +290,7 @@ p {
   content: "";
   width: 136px;
   height: 3px;
-  background-color: aqua;
+  background-color: rgb(78, 198, 171);
   margin-top: 11px;
   margin-bottom: 24px;
 }
