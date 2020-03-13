@@ -22,7 +22,7 @@ header nav {
 .nav-list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-list li:not(:last-child) {
@@ -46,10 +46,6 @@ header nav {
   text-transform: uppercase;
 }
 
-.about-nav a {
-  color: rgb(243, 129, 129);
-}
-
 .about-nav::after {
   content: "";
   display: block;
@@ -57,6 +53,15 @@ header nav {
   width: 50px;
   height: 3px;
   margin-top: 10px;
+  opacity: 0;
+  visibility: hidden;
+}
+.about-nav:hover a{color: rgb(243, 129, 129);
+}
+
+.about-nav:hover::after{
+visibility: visible;
+opacity: 1;
 }
 
 .services {
@@ -307,17 +312,25 @@ footer {
   background-color: rgb(252, 227, 138);
 }
 
-.twitter,
+/* .twitter,
 .facebook,
 .pinterest {
-  border-right: 1px rgb(243, 129, 129);
+  border-right: solid 1px rgb(243, 129, 129);
   background-clip: content-box;
-}
+} */
 
 .twitter {
   background-image: url(../sm/tt.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.twitter::after{
+  display: inline-block;
+  content: "";
+  background-color: rgba(243, 129, 129, .5);
+  width: 1px;
+  height: 56px;
 }
 
 .facebook {
@@ -326,11 +339,28 @@ footer {
   background-position: center;
 }
 
+/* .facebook::after{
+  display: inline-block;
+  content: "";
+  background-color: rgba(243, 129, 129, .5);
+  width: 1px;
+  height: 56px;
+} */
+
+
 .pinterest {
   background-image: url(../sm/pt.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* .pinterest::after{
+  display: inline-block;
+  content: "";
+  background-color: rgba(243, 129, 129, .5);
+  width: 1px;
+  height: 56px;
+} */
 
 .instagram {
   background-image: url(../sm/ig.png);
@@ -381,7 +411,7 @@ footer input {
 footer button {
   background-color: rgb(149, 225, 211);
   width: 150px;
-  height: 40px;
+  height: auto;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -392,4 +422,25 @@ footer button {
 
 button:hover {
   cursor: pointer;
+}
+
+.Shape_3_copy {
+  background-color: rgb(243, 129, 129);
+  opacity: 0.502;
+  position: absolute;
+  left: 483px;
+  top: 1177px;
+  width: 1px;
+  height: 56px;
+  z-index: 24;
+}
+.Shape_3_copy_2 {
+  background-color: rgb(243, 129, 129);
+  opacity: 0.502;
+  position: absolute;
+  left: 539px;
+  top: 1177px;
+  width: 1px;
+  height: 56px;
+  z-index: 25;
 }
