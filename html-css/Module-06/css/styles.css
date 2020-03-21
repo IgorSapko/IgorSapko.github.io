@@ -317,25 +317,17 @@ footer {
   background-color: rgb(252, 227, 138);
 }
 
-/* .twitter,
+.twitter,
 .facebook,
 .pinterest {
   border-right: solid 1px rgb(243, 129, 129);
-  background-clip: content-box;
-} */
+  background-clip: border-box;
+}
 
 .twitter {
   background-image: url(../sm/tt.png);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.twitter::after {
-  display: inline-block;
-  content: "";
-  background-color: rgba(243, 129, 129, 0.5);
-  width: 1px;
-  height: 56px;
 }
 
 .facebook {
@@ -344,27 +336,11 @@ footer {
   background-position: center;
 }
 
-/* .facebook::after{
-  display: inline-block;
-  content: "";
-  background-color: rgba(243, 129, 129, .5);
-  width: 1px;
-  height: 56px;
-} */
-
 .pinterest {
   background-image: url(../sm/pt.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* .pinterest::after{
-  display: inline-block;
-  content: "";
-  background-color: rgba(243, 129, 129, .5);
-  width: 1px;
-  height: 56px;
-} */
 
 .instagram {
   background-image: url(../sm/ig.png);
