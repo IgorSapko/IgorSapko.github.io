@@ -156,7 +156,7 @@ header nav {
   width: 382px;
 }
 .wrap-alarm::before {
-  content: url(../png/alarm.png);
+  content: url(../png/ALARM.png);
 }
 .wrap-linegraph::before {
   content: url(../png/LINEGRAPH.png);
