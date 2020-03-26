@@ -43,8 +43,10 @@ section {
 .find_partner {
   background-image: url(../png/Rectangle-mob.png);
   background-color: rgb(26, 25, 21);
-  height: 540px;
-  background-clip: border-box;
+  /* height: 540px; */
+  padding-bottom: 1px;
+  background-size: cover;
+  /* background-clip: border-box; */
 }
 
 .wrap-nav {
@@ -100,7 +102,7 @@ section {
   display: block;
   width: 220px;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 9px;
 }
 
 .find_partner button {
@@ -341,22 +343,22 @@ section {
 }
 
 @media (min-width: 1440px) {
-  .find_partner{
+  .find_partner {
     background-image: url(../png/Rectangle-desk.png);
-  width: 1440px;
+    width: 1440px;
   }
-.partners_cards{
-  width: 1440px;
-}
-.find_partner nav{
-  width: 880px;
-  margin: 0 auto;
-}
-.find_partner nav *{
-  margin-left: 0;
-  margin-right: 0;
-}
-.cards_list{
-  width: 920px;
+  .partners_cards {
+    width: 1440px;
+  }
+  .find_partner nav {
+    width: 880px;
+    margin: 0 auto;
+  }
+  .find_partner nav * {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cards_list {
+    width: 920px;
   }
 }
