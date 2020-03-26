@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+section {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.find_partner {
+  background-image: url(../png/Rectangle-mob.png);
+  background-color: rgb(26, 25, 21);
+  height: 540px;
+  background-clip: border-box;
+}
+
+.wrap-nav {
+  display: flex;
+  padding-top: 23px;
+  justify-content: center;
+}
+
+.wrap-nav :first-child {
+  margin-right: 38px;
+}
+
+.wrap-nav a {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.wrap-nav :last-child::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(26, 25, 21, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-20px, -12px);
+  width: 94px;
+  height: 40px;
+}
+
+.find_partner h1 {
+  font-size: 30px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.find_partner p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 12px;
+  display: block;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.find_partner button {
+  display: block;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  background-clip: border-box;
+  width: 280px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 138px;
+}
+
+.partners_cards h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #333333;
+  text-align: center;
+  padding-top: 68px;
+  margin-bottom: 13px;
+}
+
+.cards_list h3 {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333333;
+  text-align: center;
+  margin-top: 16px;
+  text-transform: capitalize;
+}
+
+.cards_list p {
+  display: block;
+  width: 218px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666666;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 14px;
+}
+.cards_list li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.cards_list li:last-child {
+  margin-bottom: 22px;
+}
+
+.partners_cards img {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.card1-wrap,
+.card2-wrap,
+.card3-wrap,
+.card4-wrap {
+  position: relative;
+}
+
+.card1-wrap::after {
+  display: block;
+  width: 37px;
+  height: 37px;
+  content: "";
+  background-image: url(../png/Shape1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+}
+
+.card2-wrap::after {
+  display: block;
+  width: 37px;
+  height: 37px;
+  content: "";
+  background-image: url(../png/Shape3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+}
+
+.card3-wrap::after {
+  display: block;
+  width: 37px;
+  height: 37px;
+  content: "";
+  background-image: url(../png/Shape2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+}
+
+.card4-wrap::after {
+  display: block;
+  width: 37px;
+  height: 37px;
+  content: "";
+  background-image: url(../png/Shape4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+}
+
+.partners_cards button {
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 284px;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ff4e50;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+@media (min-width: 768px) {
+  .find_partner,
+  .partners_cards {
+    width: 768px;
+  }
+  .find_partner {
+    height: 700px;
+    background-image: url(../png/Rectangle-tab.png);
+    background-color: rgb(26, 25, 21);
+  }
+  .find_partner nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .logo {
+    margin-top: 46px;
+    margin-left: 45px;
+  }
+  .wrap-nav {
+    margin-right: 68px;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .find_partner h1 {
+    font-size: 50px;
+    letter-spacing: 0;
+    display: block;
+    width: 484px;
+    margin: 0 auto;
+    margin-top: 144px;
+  }
+  .find_partner p {
+    font-size: 24px;
+    margin-top: 30px;
+    width: auto;
+  }
+  .find_partner button {
+    width: 226px;
+    height: 40px;
+  }
+
+  .cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 462px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .cards_list li:first-child {
+    margin-bottom: 60px;
+  }
+
+  .card1 {
+    order: -4;
+  }
+  .card2 {
+    order: -2;
+  }
+  .card3 {
+    order: -3;
+  }
+  .card4 {
+    order: -1;
+  }
+
+  .partners_cards h2 {
+    margin-bottom: 31px;
+  }
+
+  .partners_cards button {
+    width: 197px;
+    height: 44px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .find_partner{
+    background-image: url(../png/Rectangle-desk.png);
+  width: 1440px;
+  }
+.partners_cards{
+  width: 1440px;
+}
+.find_partner nav{
+  width: 880px;
+  margin: 0 auto;
+}
+.find_partner nav *{
+  margin-left: 0;
+  margin-right: 0;
+}
+.cards_list{
+  width: 920px;
+  }
+}
