@@ -19,14 +19,20 @@ img {
   height: auto;
 }
 /* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif; */
 
 section {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  width: 320px;
+  /* width: 320px; */
   margin: 0 auto;
+}
+
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .logo {
@@ -37,21 +43,20 @@ section {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 126px;
 }
 
 .find_partner {
   background-image: url(../png/Rectangle-mob.png);
   background-color: rgb(26, 25, 21);
-  /* height: 540px; */
-  padding-bottom: 1px;
+  padding-bottom: 138px;
+  padding-top: 20px;
   background-size: cover;
-  /* background-clip: border-box; */
 }
 
 .wrap-nav {
   display: flex;
-  padding-top: 23px;
+  margin-top: 9px;
   justify-content: center;
 }
 
@@ -66,7 +71,7 @@ section {
   color: #ffffff;
 }
 
-.wrap-nav :last-child::before {
+.wrap-nav ::before {
   display: block;
   content: "";
   border-style: solid;
@@ -80,6 +85,11 @@ section {
   transform: translate(-20px, -12px);
   width: 94px;
   height: 40px;
+  visibility: hidden;
+}
+
+.wrap-nav :hover::before {
+  visibility: visible;
 }
 
 .find_partner h1 {
@@ -98,11 +108,11 @@ section {
   line-height: 1.2;
   color: #ffffff;
   margin: 0 auto;
-  margin-top: 12px;
+  margin-top: 6px;
   display: block;
   width: 220px;
   text-align: center;
-  margin-bottom: 9px;
+  margin-bottom: 14px;
 }
 
 .find_partner button {
@@ -118,7 +128,7 @@ section {
   line-height: 1.2;
   color: #ffffff;
   margin: 0 auto;
-  margin-bottom: 138px;
+  /* margin-bottom: 138px; */
 }
 
 .partners_cards h2 {
@@ -265,10 +275,6 @@ section {
 }
 
 @media (min-width: 768px) {
-  .find_partner,
-  .partners_cards {
-    width: 768px;
-  }
   .find_partner {
     height: 700px;
     background-image: url(../png/Rectangle-tab.png);
@@ -345,7 +351,7 @@ section {
 @media (min-width: 1440px) {
   .find_partner {
     background-image: url(../png/Rectangle-desk.png);
-    width: 1440px;
+    /*     width: 1440px; */
   }
   .partners_cards {
     width: 1440px;
