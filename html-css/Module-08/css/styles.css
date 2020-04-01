@@ -57,11 +57,15 @@ section {
 .wrap-nav {
   display: flex;
   margin-top: 9px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .wrap-nav :first-child {
-  margin-right: 38px;
+  margin-left: 72px;
+}
+
+.wrap-nav :last-child {
+  margin-right: 90px;
 }
 
 .wrap-nav a {
@@ -82,9 +86,9 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate(-20px, -12px);
-  width: 94px;
-  height: 40px;
+  transform: translate(-18px, -10px);
+  width: 156%;
+  height: 34px;
   visibility: hidden;
 }
 
@@ -98,7 +102,7 @@ section {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 26px;
 }
 
 .find_partner p {
@@ -108,7 +112,7 @@ section {
   line-height: 1.2;
   color: #ffffff;
   margin: 0 auto;
-  margin-top: 6px;
+  margin-top: 11px;
   display: block;
   width: 220px;
   text-align: center;
@@ -264,7 +268,7 @@ section {
   border-color: rgb(255, 78, 80);
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  width: 284px;
+  width: 280px;
   height: 44px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -286,14 +290,22 @@ section {
     flex-direction: row-reverse;
   }
   .logo {
-    margin-top: 46px;
-    margin-left: 45px;
+    margin-top: 26px;
+    margin-left: 37px;
   }
   .wrap-nav {
-    margin-right: 68px;
+    margin-right: 0px;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 27px;
   }
+
+  .wrap-nav :first-child {
+    margin-right: 36px;
+  }
+  .wrap-nav :last-child {
+    margin-right: 56px;
+  }
+
   .find_partner h1 {
     font-size: 50px;
     letter-spacing: 0;
@@ -305,6 +317,7 @@ section {
   .find_partner p {
     font-size: 24px;
     margin-top: 30px;
+    margin-bottom: 33px;
     width: auto;
   }
   .find_partner button {
@@ -343,7 +356,7 @@ section {
   }
 
   .partners_cards button {
-    width: 197px;
+    width: 190px;
     height: 44px;
   }
 }
@@ -357,12 +370,19 @@ section {
     width: 1440px;
   }
   .find_partner nav {
-    width: 880px;
+    width: 943px;
     margin: 0 auto;
   }
   .find_partner nav * {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .wrap-nav :first-child {
+    margin-right: 36px;
+  }
+  .wrap-nav :last-child {
+    margin-right: 18px;
   }
   .cards_list {
     width: 920px;
