@@ -278,6 +278,9 @@ section {
   margin-bottom: 58px;
 }
 
+button:hover {
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   .find_partner {
     height: 700px;
